@@ -1,7 +1,9 @@
 package util;
 
 public class Operaciones {
-    public int sumar(String a , Long b){
-        return 21;
+    public long sumar(String a , Long b){
+        long numero = Long.parseLong(a);
+
+        return numero+b.longValue();
     }
 }
