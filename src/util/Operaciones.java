@@ -6,4 +6,9 @@ public class Operaciones {
 
         return numero+b.longValue();
     }
+    public long sumar(Long a , Long b){
+
+
+        return a.longValue()+b.longValue();
+    }
 }
